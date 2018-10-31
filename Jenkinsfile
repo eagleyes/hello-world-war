@@ -3,7 +3,7 @@ def templateName = 'hello-world-war'
 pipeline {
   agent {
     node {
-      label 'nodejs' 
+      label 'master' 
     }
   }
   options {
